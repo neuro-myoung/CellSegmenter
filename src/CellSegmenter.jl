@@ -1,6 +1,6 @@
 module CellSegmenter
 
-using Images
+using Images, Distances
 
 include("slic.jl")
 

@@ -4,6 +4,7 @@ authors = ["Michael Young"]
 version = "0.1.0"
 
 [deps]
+Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 
 [compat]
