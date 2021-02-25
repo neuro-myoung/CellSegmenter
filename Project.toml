@@ -3,6 +3,9 @@ uuid = "3135cf23-0617-43d2-a112-55a9cc3d1fb6"
 authors = ["Michael Young"]
 version = "0.1.0"
 
+[deps]
+Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
+
 [compat]
 julia = "1"
 
