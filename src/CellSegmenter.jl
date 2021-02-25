@@ -3,6 +3,9 @@ module CellSegmenter
 using Images, Distances
 
 include("slic.jl")
+include("normalize.jl")
+include("gaussianKernel.jl")
+include("dbscan.jl")
 
 mutable struct Cluster
   l::Float32
@@ -12,6 +15,6 @@ mutable struct Cluster
   x::Int
 end
 
-export slic
+export slic, normalize, gaussianKernel, dbscan
 
 end

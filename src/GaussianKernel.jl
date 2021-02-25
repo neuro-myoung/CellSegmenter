@@ -1,4 +1,4 @@
-function GaussianKernel(arr, σₗ=0.5::Float, σₛ=0.5::Float)
+function gaussianKernel(arr, σₗ=0.5::Float, σₛ=0.5::Float)
 		A = fill(0.0, size(arr,1), size(arr,1))
 
 		for i in 1:size(A,1)
